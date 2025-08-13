@@ -1,25 +1,29 @@
 .navbar {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgba(106, 121, 138, 0.85);
-    border-radius: 0 0 0 10px;
-    padding: 10px;
+    border-radius: 0 0 10px 10px; /* bottom corners rounded */
+    padding: 10px 20px;
     z-index: 1000;
- ;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    margin: 0 5px;
-    padding: 10px 0;
     font-weight: bold;
+    padding: 5px 10px;
 }
 
 .navbar a:hover {
     background-color: rgba(60, 70, 80, 1);
+    border-radius: 25px;
 }
+
 
 body {
     margin: 0;
