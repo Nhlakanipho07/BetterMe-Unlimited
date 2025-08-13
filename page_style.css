@@ -1,8 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(106, 121, 138, 0.85);
+    border-radius: 0 0 0 10px;
+    padding: 10px;
+    z-index: 1000;
+ ;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: rgba(60, 70, 80, 1);
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color:#4b5867;
     color: #102A43;
+}
+
+section {
+    padding: 20px;
 }
 
 .hero {
@@ -48,6 +75,55 @@ body {
 
 .about p {
     font-size: 1.2em;
+}
+
+.betterme-sections {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.betterme-column {
+    flex: 1;
+    background-color: rgb(216, 213, 213);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.betterme-column h2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.betterme-pers-img {
+    border-radius: 10px;
+    margin: 15px;
+    width: 225px;
+    height: 225px;
+    filter: brightness(1);
+}
+
+.betterme-prof-img {
+    border-radius: 10px;
+    margin: 15px;    
+    width: 360px;
+    height: 225px;
+    filter: brightness(1);
+    
+}
+
+
+.betterme-column p {
+    margin: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 
