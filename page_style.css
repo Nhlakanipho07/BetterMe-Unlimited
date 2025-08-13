@@ -54,7 +54,7 @@ section {
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     margin: 0;
 }
 
@@ -98,6 +98,7 @@ section {
 }
 
 .betterme-column h2 {
+    font-size: 30px;
     padding-top: 0px;
     padding-bottom: 20px;
     margin-bottom: 10px;
@@ -130,7 +131,7 @@ section {
     text-align: left;
 }
 
-
+/* 
 .features {
     text-align: center;
     padding: 40px 20px;
@@ -154,7 +155,7 @@ section {
     margin: 10px 0;
     font-size: 1.2em;
 }
-
+ */
 
 footer {
     text-align: center;
