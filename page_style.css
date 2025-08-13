@@ -1,16 +1,16 @@
 .navbar {
     position: fixed;
-    top: 0;
+    top: 7px; /* pull it down a bit from the very top */
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(106, 121, 138, 0.85);
-    border-radius: 0 0 10px 10px; /* bottom corners rounded */
-    padding: 10px 20px;
+    background-color: rgba(75, 88, 103, 0.85);
+    border-radius: 50px; /* full pill shape */
+    padding: 10px 30px;
     z-index: 1000;
     display: flex;
-    gap: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    gap: 20px;
 }
+
 
 .navbar a {
     color: white;
