@@ -188,3 +188,14 @@ footer {
     color:  white;
     margin-top: 20px;
 }
+
+.linkedin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linkedin_icon {
+    width: 45px;
+    height: 45px;
+}

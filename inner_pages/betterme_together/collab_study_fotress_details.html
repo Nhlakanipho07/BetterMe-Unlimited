@@ -4,7 +4,7 @@
     <link rel="icon" type="image/x-icon" href="BetterMe.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BetterMe Unlimited</title>
+    <title>BetterMe Together</title>
     <link rel="stylesheet" href="collab_inner_page_style.css">
 </head>
 <body>
@@ -54,19 +54,37 @@
         </div>
     </section>
     <footer>
-        <p>© 2025 BetterMe Unlimited | Designed with passion and purpose</p>
+        <p>© <span id="footer-year"></span> BetterMe Unlimited | Designed with passion and purpose</p>
+        <div class="linkedin-container">
+        <div class="linkedin-icon-container">
+            <a 
+            title="Click here to open LinkedIn" 
+            target="_blank" 
+            href="https://www.linkedin.com/company/betterme-unlimited/" 
+            style="color: white;"> 
+            <img
+                    src="linkedin_logo.webp"
+                    alt="LinkedIn logo"
+                    class="linkedin_icon">
+            </a>
+        </div>
+        <div class="linkedin-cta-container">
         <p>
             Follow us on 
             <a 
             title="Click here to open LinkedIn" 
             target="_blank" 
             href="https://www.linkedin.com/company/betterme-unlimited/" 
-            style="color: white;">
+            style="color: white;">            
             <strong>LinkedIn</strong></a> 
             for pre-launch updates.
         </p>
-
+        </div>
+        </div>
     </footer>
+    <script>
+        document.getElementById("footer-year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
