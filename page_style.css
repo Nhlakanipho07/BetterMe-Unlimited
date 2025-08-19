@@ -1,10 +1,10 @@
 .navbar {
     position: fixed;
-    top: 7px; /* pull it down a bit from the very top */
+    top: 7px; 
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(75, 88, 103, 0.85);
-    border-radius: 50px; /* full pill shape */
+    border-radius: 50px;
     padding: 10px 30px;
     z-index: 1000;
     display: flex;
@@ -147,39 +147,12 @@ section {
     
 }
 
-
 .betterme-column p {
     margin: 5px;
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
 }
-
-/* 
-.features {
-    text-align: center;
-    padding: 40px 20px;
-    background-color:rgb(216, 213, 213);
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.features h2 {
-    font-size: 2em;
-    color:#102A43;
-}
-
-.features ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.features li {
-    margin: 10px 0;
-    font-size: 1.2em;
-}
- */
 
 footer {
     text-align: center;
@@ -198,4 +171,63 @@ footer {
 .linkedin_icon {
     width: 45px;
     height: 45px;
+}
+
+/* new additions */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    top: 0;
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+
+  .navbar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .about_container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about_betterme_img,
+  .betterme-pers-img,
+  .betterme-prof-img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .betterme-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .betterme-column {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p,
+  .about p,
+  .betterme-column p {
+    font-size: 16px;
+  }
 }
