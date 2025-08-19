@@ -176,23 +176,23 @@ footer {
 /* new additions */
 
 @media (max-width: 768px) {
-  .navbar {
+  /* .navbar {
+    position: absolute;
+    transform: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 15px;
-    gap: 10px;
-    top: 0;
-    border-radius: 0;
-    width: 100%;
-    left: 0;
-    transform: none;
-  }
+    border-radius: 0px;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: none;
+  } */
 
   .navbar a {
-    display: block;
+    /* display: block; */
     text-align: center;
-    padding: 10px;
+    font-size: 12px;    
   }
+
 
   .logo {
     width: 100%;
