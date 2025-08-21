@@ -149,7 +149,7 @@ footer {
 }
 
 
-.linkedin-container {
+.social-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -159,6 +159,14 @@ footer {
     width: 45px;
     height: 45px;
 }
+
+.facebook_icon {
+    padding-top: 9px;
+    padding-left: 8px;
+    width: 27px;
+    height: 27px;
+}
+
 
 /* new additions */
 
