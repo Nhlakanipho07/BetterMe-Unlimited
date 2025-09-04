@@ -208,7 +208,7 @@ footer {
 /* new additions */
 
 @media (max-width: 900px) {
-
+    
   .navbar a {
     text-align: center;
     font-size: 12px;    
