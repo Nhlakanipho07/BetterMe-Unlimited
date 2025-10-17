@@ -130,6 +130,30 @@ section {
     margin-top: 20px;    
 }
 
+.betterme {
+  margin: 20px;
+}
+
+.betterme-column-s {
+    background-color: rgb(216, 213, 213);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.betterme-column-s h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.book-button {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .betterme-column {
     flex: 1;
     background-color: rgb(216, 213, 213);
@@ -138,6 +162,25 @@ section {
     padding-right: 30px;
     padding-bottom: 30px;
     /* padding-top: 20px; */
+}
+
+.betterme-scholar {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.betterme-scholar-column {
+  flex: 1;
+  padding-left: 25px;
+}
+
+.betterme-scholar-img {
+  border-radius: 10px;    
+  width: 230px;
+  height: 225px;
+  filter: brightness(1);
+  
 }
 
 .betterme-column h2 {
@@ -170,7 +213,7 @@ section {
     
 }
 
-.betterme-column p {
+.betterme-column p, .betterme-column-s p {
     margin: 5px;
     font-size: 20px;
     line-height: 1.5;
@@ -251,6 +294,7 @@ footer {
   }
 
   .about_betterme_img,
+  .betterme-scholar-img,
   .betterme-pers-img,
   .betterme-prof-img {
     width: 100%;
@@ -263,6 +307,14 @@ footer {
     padding-bottom: 0px;
   }
 
+  .betterme-scholar {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 27px;
+    padding-left: 10px ;
+    
+  }
+
   .betterme-sections {
     flex-direction: column;
     align-items: center;
@@ -271,6 +323,20 @@ footer {
 
   .betterme-divisions {
     padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 0px;
+  }
+
+  .betterme {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 39px;
+  }
+
+  .betterme-column-s {
+    width: 100%;
     padding-right: 40px;
     padding-left: 0px;
   }
@@ -287,7 +353,8 @@ footer {
 
   .hero p,
   .about p,
-  .betterme-column p {
+  .betterme-column p 
+  .betterme-column-s p{
     font-size: 16px;
   }
 
