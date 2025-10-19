@@ -310,6 +310,18 @@ footer {
     padding-right: 10px;
   }
 
+  .image-container {
+    padding-left: 50px;
+  }
+
+  .book-button {
+    text-align: center;
+  }
+
+  .betterme-scholar-column {
+    padding-left: 50px;
+  }
+
   .about_betterme_img,
   .betterme-scholar-img,
   .betterme-pers-img,
