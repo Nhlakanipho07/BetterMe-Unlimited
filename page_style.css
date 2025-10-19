@@ -181,6 +181,16 @@ section {
   padding-left: 25px;
 }
 
+.betterme-scholar-column a:hover {
+  background-color: #00555A; 
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.betterme-scholar-column strong:hover {
+  color: white;
+}
+
 .betterme-scholar-img {
   border-radius: 10px;    
   width: 230px;
