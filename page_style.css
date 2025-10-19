@@ -48,8 +48,9 @@ body {
 }
 
 section {
-    padding-left: 20px;
-    padding-right: 20px;
+  scroll-margin-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hero {
@@ -130,7 +131,7 @@ section {
     margin-top: 20px;    
 }
 
-.betterme {
+.betterme-scholar-tutoring {
   margin: 20px;
 }
 
@@ -327,7 +328,7 @@ footer {
     padding-left: 0px;
   }
 
-  .betterme {
+  .betterme-scholar-tutoring {
     flex-direction: column;
     align-items: center;
     margin-left: 0px;
