@@ -272,11 +272,23 @@ footer {
 /* new additions */
 
 @media (max-width: 900px) {
+  .navbar {
+    top: 0px;
+    position: fixed;
+    transform: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0 10px;
+    justify-content: center;
+    margin-top: 0px;
+  }
     
   .navbar a {
     text-align: center;
-    font-size: 12px;    
+    font-size: 12px;
+    line-height: 30px;
   }
+
    img {
   max-width: 100%;
   height: auto;
@@ -311,6 +323,7 @@ footer {
   section {
     padding-top: 0px;
     padding-bottom: 0px;
+    scroll-margin-top: 80px;
   }
 
   .betterme-scholar {
