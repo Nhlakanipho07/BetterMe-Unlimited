@@ -135,6 +135,11 @@ section {
   margin: 20px;
 }
 
+.betterme-scholar li {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
 .betterme-column-s {
     background-color: rgb(216, 213, 213);
     border-radius: 10px;
